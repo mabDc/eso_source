@@ -1,7 +1,7 @@
 {
     "id": "0a0a556f-29ec-4051-87d1-7cc478317adf",
     "createTime": 1589340103070116,
-    "modifiedTime": 1589684595147317,
+    "modifiedTime": 1589903790571019,
     "author": "",
     "postScript": "",
     "name": "幻月书院",
@@ -24,7 +24,7 @@
     "discoverDescription": "@css:.book_des@text",
     "discoverResult": "h3 a@href##http://www.huanyue123.com/book/(\\d+)/(\\d+)/##/$1_$2/",
     "enableSearch": true,
-    "searchUrl": "{\"url\":\"http://m.huanyue123.com/s.php\",\"method\":\"post\",\"body\":{\"keyword\":\"$key\",\"t\":\"1\"}}",
+    "searchUrl": "{\"url\":\"http://m.huanyue123.com/s.php\",\"method\":\"post\",\"body\":{\"keyword\":\"$keyword\",\"t\":\"1\"}}",
     "searchItems": "",
     "searchList": "@css:.hot_sale",
     "searchTags": "",

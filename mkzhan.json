@@ -1,7 +1,7 @@
 {
     "id": "4188747c-65ce-48b3-8540-2d07d41b74e7",
     "createTime": 1589385405894487,
-    "modifiedTime": 1589448615079849,
+    "modifiedTime": 1589904468439611,
     "author": "",
     "postScript": "",
     "name": "漫客栈🅰",
@@ -44,7 +44,7 @@
     "chapterCover": "",
     "chapterLock": "",
     "chapterTime": "",
-    "chapterResult": "https://comic.mkzhan.com/chapter/content/?chapter_id={{$.chapter_id}}&comic_id=@js:result+lastResult",
+    "chapterResult": "https://comic.mkzhan.com/chapter/content/?chapter_id={{$.chapter_id}}&comic_id={{@js:lastResult}}",
     "contentUrl": "",
     "contentItems": "@js:result.replace(/http:/gi,\"https:\").replace(/\\\\/g,\"\").replace(/\\.(jpg|JPG).*?\"/g,\".$1!page-1200\\\"\").match(/http.*?page-1200/g)"
 }

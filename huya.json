@@ -1,7 +1,7 @@
 {
     "id": "ea294c75-1a17-458e-b9d7-3270cc3a719f",
     "createTime": 1589730318830007,
-    "modifiedTime": 1589766324267822,
+    "modifiedTime": 1590151795315915,
     "author": "",
     "postScript": "",
     "name": "虎牙",
@@ -39,7 +39,7 @@
     "chapterRoadName": "",
     "chapterUrl": "",
     "chapterItems": "",
-    "chapterList": "@js:\nsrc=result.match(/html5player-video\"\\s*src=\"([^\"]*)/)[1].split(/_\\d+/);\n[\n      {\"sDisplayName\": \"流畅\", \"iBitRate\": 500},\n      {\"sDisplayName\": \"高清\", \"iBitRate\": 1200},\n      {\"sDisplayName\": \"超清\", \"iBitRate\": 2000},\n      {\"sDisplayName\": \"蓝光4M\", \"iBitRate\": 4000},\n      {\"sDisplayName\": \"蓝光8M\", \"iBitRate\": 0}\n].map(c=>({\ntext:c.sDisplayName,\nurl:`https:${src[0]}_${c[\"iBitRate\"]}${src[1]}`\n}));",
+    "chapterList": "@js:\nsrc=result.match(/liveLineUrl\\s*=\\s*\"([^\"]*)/)[1].split(/_\\d+/);\n[\n      {\"sDisplayName\": \"流畅\", \"iBitRate\": 500},\n      {\"sDisplayName\": \"高清\", \"iBitRate\": 1200},\n      {\"sDisplayName\": \"超清\", \"iBitRate\": 2000},\n      {\"sDisplayName\": \"蓝光4M\", \"iBitRate\": 4000},\n      {\"sDisplayName\": \"蓝光8M\", \"iBitRate\": 0}\n].map(c=>({\ntext:c.sDisplayName,\nurl:`https:${src[0]}_${c[\"iBitRate\"]}${src[1]}`\n}));",
     "chapterName": "$.text",
     "chapterCover": "",
     "chapterLock": "",

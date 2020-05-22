@@ -24,7 +24,7 @@
     "discoverDescription": "时间 {{.l_time@text}} · 人气 {{.l_rq@text}}",
     "discoverResult": "http://5sing.kugou.com{{h3 a@href}}",
     "enableSearch": true,
-    "searchUrl": "http://search.5sing.kugou.com/home/json?keyword=$key&sort=1&page=$page&filter=0&type=0",
+    "searchUrl": "http://search.5sing.kugou.com/home/json?keyword=$keyword&sort=1&page=$page&filter=0&type=0",
     "searchItems": "",
     "searchList": "$.list.*",
     "searchTags": "",

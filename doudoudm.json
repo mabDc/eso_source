@@ -1,7 +1,7 @@
 {
     "id": "3fea1a3e-4227-4d08-a800-8b7be7bba2a6",
     "createTime": 1590164341771903,
-    "modifiedTime": 1590164898976324,
+    "modifiedTime": 1590231733212012,
     "author": "",
     "postScript": "",
     "name": "兜兜动漫网",
@@ -46,5 +46,5 @@
     "chapterTime": "",
     "chapterResult": "href",
     "contentUrl": "@js:var nk = result.match(/\\/([\\d]*).html/)[1];\n`https://api.tzdjzu.com/index.php?nk=${nk}&barrage_switch=`",
-    "contentItems": "source@src"
+    "contentItems": "source@src@js:\nre=result.join()\nif(re.startsWith(\"//\")){\nre=\"https:\"+re\n}\nre"
 }

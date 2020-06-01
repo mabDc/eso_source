@@ -46,5 +46,5 @@
     "chapterTime": "",
     "chapterResult": "href@js:baseUrl+result",
     "contentUrl": "",
-    "contentItems": "#content@text##笔趣阁 www.xbiquge.cc，最快更新.*"
+    "contentItems": "#content@text##笔趣阁 www.xbiquge.cc，最快更新.*@js:result.join(\"\").split(/\\s+/g)"
 }

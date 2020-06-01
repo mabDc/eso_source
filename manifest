@@ -755,7 +755,7 @@
 	"author": "",
 	"postScript": "",
 	"name": "新笔趣阁",
-	"host": "www.xbiquge.la",
+	"host": "http://www.xbiquge.la",
 	"group": "自用",
 	"contentType": 1,
 	"sort": 0,
@@ -795,7 +795,7 @@
 	"chapterLock": "",
 	"chapterTime": "",
 	"chapterResult": "a@href",
-	"contentUrl": "http://$host$result",
+	"contentUrl": "",
 	"contentItems": "#content@text"
 },
 {

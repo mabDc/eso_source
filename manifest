@@ -651,7 +651,7 @@
 {
     "id": "c8315eae-309f-4d6e-a557-600af14728cc",
     "createTime": 1591769688904251,
-    "modifiedTime": 1591776513708730,
+    "modifiedTime": 1591780788429750,
     "author": "",
     "postScript": "",
     "name": "晋江文学",
@@ -689,7 +689,7 @@
     "chapterRoadName": "",
     "chapterUrl": "/$result",
     "chapterItems": "",
-    "chapterList": "//*[id=oneboolt]/tbody/tr[position()>3]",
+    "chapterList": "#oneboolt > tbody > tr[itemprop=chapter]",
     "chapterName": "//td[2]/text()&&//td[3]/text()",
     "chapterCover": "",
     "chapterLock": "",

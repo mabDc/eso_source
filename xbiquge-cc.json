@@ -24,7 +24,7 @@
     "discoverDescription": "",
     "discoverResult": "",
     "enableSearch": true,
-    "searchUrl": "{\"url\":\"https://www.xbiquge.cc/modules/article/search.php?searchkey=$keyword&page=$page\",\"charset\":\"gbk\"}",
+    "searchUrl": "{\"url\":\"https://www.xbiquge.cc/modules/article/search.php?searchkey=$keyword&page=$page\",\"encoding\":\"gbk\"}",
     "searchItems": "",
     "searchList": "#main>.novelslistss>li||body",
     "searchTags": ".s1@text",

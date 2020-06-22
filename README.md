@@ -27,14 +27,14 @@
       > [方法](https://github.com/veedrin/horseshoe/blob/master/regex/%E6%96%B9%E6%B3%95.md)
       > [引擎](https://github.com/veedrin/horseshoe/blob/master/regex/%E5%BC%95%E6%93%8E.md)
   + 自定义三种连接符：`&&, ||, %%`
-  + 不支持动态内容，所有的规则解析以静态加载的内容为准(阅读支持动态内容，首字符用$表示动态加载)
+  + 不支持动态内容，所有的规则解析以静态加载的内容为准。
   + 动态与静态的问题 [多多猫插件开发指南](https://www.kancloud.cn/magicdmer/ddcat_plugin_develop/1036896) 解释的很清楚
     > **2.5.2 插件的调试**<br>
     > ...<br>
     > **注意：** Ctrl+u和F12开发者工具Elements面板中显示源代码的的区别是前者显示的是不加载js的html源代码，后者显示的是加载内部外部js后的html代码。sited引擎读取前者代码，所以有时候在浏览器开发者工具（Console面板）能找出数据，在app里却报错，就是因为Ctrl+u源代码中没有相应数据。
   + 规则形式为 `rule##replaceRegex##replacement##replaceFirst`
 
-###  JSONPath 与 XPath 参考
+###  JSONPath 与 XPath 参考 
 - 提供给书写时查阅，可当作使用手册，无需记住具体写法。
 - 来源是 [goessner JSONPath - XPath for JSON](https://goessner.net/articles/JsonPath/)
 

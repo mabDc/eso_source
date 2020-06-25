@@ -7,8 +7,7 @@
 ## 基础
 
   + JSONPath 
-    - 形式 `@JSon:$.jsonPath` 或 `@JSon:jsonPath` 或 `$.jsonPath` 或 `jsonPath` 或 `{$.jsonPath}`
-    - `jsonPath` 和 `{$.jsonPath}` 未显式指定JSONPath，依赖程序的默认判断，不可靠
+    - 形式 `@JSon:$.jsonPath` 或 `@JSon:jsonPath` 或 `$.jsonPath`
     - 标准规范 [goessner JSONPath - XPath for JSON](https://goessner.net/articles/JsonPath/)
     - 实现库 [json-path/JsonPath](https://github.com/json-path/JsonPath)
     - 在线测试 [Jayway JsonPath Evaluator](http://jsonpath.herokuapp.com/)
@@ -17,7 +16,7 @@
     - 标准规范 [W3C XPATH 1.0](https://www.w3.org/TR/1999/REC-xpath-19991116/) 
     - 实现库 [hegexiaohuozi/JsoupXpath](https://github.com/zhegexiaohuozi/JsoupXpath)
   + JSOUP
-    - 形式 `@css:jsoup` 或 `class.chapter@tag.a!0` 或 `class.article.0@tag.p@text`
+    - 形式 `@css:jsoup` 或 `jsoup`
     - 标准规范与实现库 [Package org.jsoup.select, CSS-like element selector](https://jsoup.org/apidocs/org/jsoup/select/Selector.html)
     - 在线测试 [Try jsoup online: Java HTML parser and CSS debugger](https://try.jsoup.org/)
   + 正则

@@ -1,8 +1,14 @@
 # 亦搜规则
 
-这个仓库用于存放亦搜规则。下面是规则编写说明。
+这个仓库用于存放亦搜规则。
 
-主要是三类：地址规则、取元素规则、取字符串规则。
+[merge.sh](https://github.com/mabDc/eso_source/blob/master/merge.sh)是自动合并脚本
+
+[mainfest](https://raw.githubusercontent.com/mabDc/eso_source/master/manifest) 是合并后的规则，链接：
+
+https://raw.githubusercontent.com/mabDc/eso_source/master/manifest
+
+下面是规则编写说明。主要是三类：地址规则、取元素规则、取字符串规则。
 
 ## 地址规则
 请用`源编辑界面`的`地址模版`，

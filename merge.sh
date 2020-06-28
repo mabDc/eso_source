@@ -14,3 +14,5 @@ if [ ${#jsons[@]} -gt 0 ]; then # if the list is not empty
   done
 fi
 echo ']' >>manifest             # complete the manifest
+
+echo success

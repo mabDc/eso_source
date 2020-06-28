@@ -23,7 +23,7 @@
     "discoverChapter": "//p[3]/text()",
     "discoverDescription": "//p[2]/text()",
     "discoverResult": ".pt-ll-l a@href",
-    "enableSearch": false,
+    "enableSearch": true,
     "searchUrl": "https://www.bxwx6.org/so/result.html?searchkey=searchKey",
     "searchItems": "",
     "searchList": "ul.librarylist>li",

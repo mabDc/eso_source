@@ -23,7 +23,7 @@
     "discoverChapter": "//label[2]//text()",
     "discoverDescription": "//p[1]//text()",
     "discoverResult": "h2 a@href",
-    "enableSearch": false,
+    "enableSearch": true,
     "searchUrl": "https://www.bbaaa.com/so/searchKey----------$page---.html",
     "searchItems": "",
     "searchList": "ul.searchlist>li",

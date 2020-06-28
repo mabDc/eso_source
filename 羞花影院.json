@@ -23,7 +23,7 @@
     "discoverChapter": "span.pic-text@text",
     "discoverDescription": "",
     "discoverResult": "h4 a@href",
-    "enableSearch": false,
+    "enableSearch": true,
     "searchUrl": "http://www.xiuhuatv.com/searchsearchKey/page/$page.html",
     "searchItems": "",
     "searchList": "ul.niubi-vodlist__media>li",

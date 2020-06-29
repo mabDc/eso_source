@@ -45,8 +45,6 @@
     "chapterLock": "",
     "chapterTime": "",
     "chapterResult": "@json:https://pull.cc.netease.com/pushstation/{$.urldata.streamname}.flv?{$.urldata.CDN_FMT.fws}",
-    "contentUrl": "https://cc.163.com",
-    "contentItems": "@js:[lastResult]",
-    "loginUrl": "",
-    "cookies": ""
+    "contentUrl": "http://www.baidu.com",
+    "contentItems": "@js:[lastResult]"
 }

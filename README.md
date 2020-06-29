@@ -1,4 +1,6 @@
-# 亦搜规则
+# 亦搜规则  
+
+![update mainfest on push](https://github.com/mabDc/eso_source/workflows/update%20mainfest%20on%20push/badge.svg?branch=master)
 
 这个仓库用于存放亦搜规则。
 
@@ -6,7 +8,7 @@
 
 [mainfest](https://raw.githubusercontent.com/mabDc/eso_source/master/manifest) 是合并后的规则，链接：
 
-https://raw.githubusercontent.com/mabDc/eso_source/master/manifest
+`https://raw.githubusercontent.com/mabDc/eso_source/master/manifest`
 
 下面是规则编写说明。主要是三类：地址规则、取元素规则、取字符串规则。
 

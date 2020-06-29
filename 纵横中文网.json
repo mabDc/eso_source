@@ -49,4 +49,4 @@
     "contentItems": ".content > p@text",
     "loginUrl": "https://passport.zongheng.com/",
     "cookies": ""
-}
+  }

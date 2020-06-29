@@ -49,4 +49,4 @@
     "contentItems": "#contentBox>div>p@innerHtml",
     "loginUrl": "",
     "cookies": ""
-}
+  }

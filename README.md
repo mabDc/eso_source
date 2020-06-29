@@ -2,17 +2,20 @@
 
 ![update mainfest on push](https://github.com/mabDc/eso_source/workflows/update%20mainfest%20on%20push/badge.svg?branch=master)
 
-这个仓库用于存放亦搜规则。
+这个仓库用于存放亦搜规则，用于APP内的网络导入，可以是单个规则，也可以是合并后的规则。
 
-[merge.sh](https://github.com/mabDc/eso_source/blob/master/merge.sh)是自动合并脚本
-
-[mainfest](https://raw.githubusercontent.com/mabDc/eso_source/master/manifest) 是合并后的规则，链接：
+[merge.sh](https://github.com/mabDc/eso_source/blob/master/merge.sh)是自动合并脚本，[mainfest](https://raw.githubusercontent.com/mabDc/eso_source/master/manifest) 是合并后的规则，链接：
 
 `https://raw.githubusercontent.com/mabDc/eso_source/master/manifest`
+
+网络问题可以使用[jsdelivr cdn](https://www.jsdelivr.com/?docs=gh)，即[mainfest from jsdelivr](https://cdn.jsdelivr.net/gh/mabDc/eso_source/manifest)，链接：
+
+`https://cdn.jsdelivr.net/gh/mabDc/eso_source/manifest`
 
 下面是规则编写说明。主要是三类：地址规则、取元素规则、取字符串规则。
 
 ## 地址规则
+
 请用`源编辑界面`的`地址模版`，
 
 ```javascript
@@ -95,6 +98,114 @@
     - 形式 `@XPath:xpath` 或 `//xpath`
     - 标准规范 [W3C XPATH 1.0](https://www.w3.org/TR/1999/REC-xpath-19991116/) 
     - 实现库 [xpath_parse](https://pub.flutter-io.cn/packages/xpath_parse)
+    - 说明 [xpath/README.md](https://github.com/codingfd/xpath/blob/master/README.md)
+        ## Syntax supported:
+        <table>
+            <tr>
+                <td width="250">Name</td>
+                <td width="100">Expression</td>
+            </tr>
+            <tr>
+                <td>immediate parent</td>
+                <td>/</td>
+            </tr>
+            <tr>
+                <td>parent</td>
+                <td>//</td>
+            </tr>
+            <tr>
+                <td>attribute</td>
+                <td>[@key=value]</td>
+            </tr>
+            <tr>
+                <td>nth child</td>
+                <td>tag[n]</td>
+            </tr>
+            <tr>
+                <td>attribute</td>
+                <td>/@key</td>
+            </tr>
+            <tr>
+                <td>wildcard in tagname</td>
+                <td>/*</td>
+            </tr>
+            <tr>
+                <td>function</td>
+                <td>function()</td>
+            </tr>
+        </table>
+
+        ### Extended syntax supported:
+
+        These XPath syntax are extended only in Xsoup (for convenience in extracting HTML, refer to Jsoup CSS Selector):
+
+        <table>
+            <tr>
+                <td width="250">Name</td>
+                <td width="100">Expression</td>
+                <td>Support</td>
+            </tr>
+            <tr>
+                <td>attribute value not equals</td>
+                <td>[@key!=value]</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>attribute value start with</td>
+                <td>[@key~=value]</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>attribute value end with</td>
+                <td>[@key$=value]</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>attribute value contains</td>
+                <td>[@key*=value]</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>attribute value match regex</td>
+                <td>[@key~=value]</td>
+                <td>yes</td>
+            </tr>
+        </table>
+        
+        
+    - 示例 [xpath_test](https://github.com/codingfd/xpath/blob/master/test/xpath_test.dart)
+    ```dart
+    import 'package:flutter_test/flutter_test.dart';
+    import 'package:xpath_parse/xpath_selector.dart';
+
+    final String html = '''
+    <html>
+    <div><a href='https://github.com'>github.com</a></div>
+    <div class="head">head</div>
+    <table><tr><td>1</td><td>2</td><td>3</td><td>4</td></tr></table>
+    <div class="end">end</div>
+    </html>
+    ''';
+
+    Future<void> main() async {
+      test('adds one to input values', () async {
+        var xpath = XPath.source(html);
+        print(xpath.query("//div/a/text()").list());
+        print(xpath.query("//div/a/@href").get());
+        print(xpath.query("//div[@class]/text()").list());
+        print(xpath.query("//div[@class='head']/text()").get());
+        print(xpath.query("//div[@class^='he']/text()").get());
+        print(xpath.query("//div[@class\$='nd']/text()").get());
+        print(xpath.query("//div[@class*='ea']/text()").get());
+        print(xpath.query("//table//td[1]/text()").get());
+        print(xpath.query("//table//td[last()]/text()").get());
+        print(xpath.query("//table//td[position()<3]/text()").list());
+        print(xpath.query("//table//td[position()>2]/text()").list());
+      });
+    }
+    ```
+
+
   + CSS
     - 形式 `@css:css` 或 `css`
     - 实现库 [csslib](https://pub.flutter-io.cn/packages/csslib)
@@ -113,8 +224,8 @@
     > **注意：** Ctrl+u和F12开发者工具Elements面板中显示源代码的的区别是前者显示的是不加载js的html源代码，后者显示的是加载内部外部js后的html代码。sited引擎读取前者代码，所以有时候在浏览器开发者工具（Console面板）能找出数据，在app里却报错，就是因为Ctrl+u源代码中没有相应数据。
   + 规则形式为 `rule##replaceRegex##replacement##replaceFirst`
 
-###  JSONPath 与 XPath 参考 
-- 提供给书写时查阅，可当作使用手册，无需记住具体写法。
+###  JSONPath 与 XPath 语法参考 
+
 - 来源是 [goessner JSONPath - XPath for JSON](https://goessner.net/articles/JsonPath/)
 
 **数据文件**

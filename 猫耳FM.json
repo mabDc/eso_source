@@ -1,7 +1,7 @@
 {
     "id": "3d008b57-2caa-4117-a076-d57c6be4ce1f",
     "createTime": 1593298841351242,
-    "modifiedTime": 1593305689937838,
+    "modifiedTime": 1593305175480284,
     "author": "wenmoux",
     "postScript": "",
     "name": "猫耳FM",
@@ -24,7 +24,7 @@
     "discoverDescription": "",
     "discoverResult": "https://www.missevan.com/sound/getsound?soundid={{a@href##/sound/}}",
     "enableSearch": true,
-    "searchUrl": "https://www.missevan.com/sound/getsearch?s=keyword&p=searchPage&type=3&page_size=30&sort=2",
+    "searchUrl": "https://www.missevan.com/sound/getsearch?s=$keyword&p=searchPage&type=3&page_size=30&sort=2",
     "searchItems": "",
     "searchList": "$.info.Datas",
     "searchTags": "",
@@ -49,4 +49,4 @@
     "contentItems": "@js:[lastResult]",
     "loginUrl": "https://m.missevan.com/login",
     "cookies": ""
-}
+  }

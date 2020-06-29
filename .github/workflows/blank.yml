@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Merge on push
+name: update mainfest on push
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -30,7 +30,8 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -m "merge changes" -a
+        git add .
+        git commit -m "update mainfest" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:

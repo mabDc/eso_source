@@ -2,15 +2,13 @@
 
 ![update mainfest on push](https://github.com/mabDc/eso_source/workflows/update%20mainfest%20on%20push/badge.svg?branch=master)
 
-这个仓库用于存放亦搜规则。
+这个仓库用于存放亦搜规则，用于APP内的网络导入，可以是单个规则，也可以是合并后的规则。
 
-[merge.sh](https://github.com/mabDc/eso_source/blob/master/merge.sh)是自动合并脚本
-
-[mainfest](https://raw.githubusercontent.com/mabDc/eso_source/master/manifest) 是合并后的规则，链接：
+[merge.sh](https://github.com/mabDc/eso_source/blob/master/merge.sh)是自动合并脚本，[mainfest](https://raw.githubusercontent.com/mabDc/eso_source/master/manifest) 是合并后的规则，链接：
 
 `https://raw.githubusercontent.com/mabDc/eso_source/master/manifest`
 
-可以使用cdn [jsdelivr cdn](https://cdn.jsdelivr.net/gh/mabDc/eso_source/manifest)，链接：
+网络问题可以使用[jsdelivr cdn](https://www.jsdelivr.com/?docs=gh)，即[mainfest from jsdelivr](https://cdn.jsdelivr.net/gh/mabDc/eso_source/manifest)，链接：
 
 `https://cdn.jsdelivr.net/gh/mabDc/eso_source/manifest`
 

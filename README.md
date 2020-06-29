@@ -10,9 +10,14 @@
 
 `https://raw.githubusercontent.com/mabDc/eso_source/master/manifest`
 
+可以使用cdn [jsdelivr cdn](https://cdn.jsdelivr.net/gh/mabDc/eso_source/manifest)，链接：
+
+`https://cdn.jsdelivr.net/gh/mabDc/eso_source/manifest`
+
 下面是规则编写说明。主要是三类：地址规则、取元素规则、取字符串规则。
 
 ## 地址规则
+
 请用`源编辑界面`的`地址模版`，
 
 ```javascript

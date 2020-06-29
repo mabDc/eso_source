@@ -102,7 +102,7 @@
         ## Syntax supported:
         <table>
             <tr>
-                <td width="100">Name</td>
+                <td width="250">Name</td>
                 <td width="100">Expression</td>
             </tr>
             <tr>
@@ -141,7 +141,7 @@
 
         <table>
             <tr>
-                <td width="100">Name</td>
+                <td width="250">Name</td>
                 <td width="100">Expression</td>
                 <td>Support</td>
             </tr>

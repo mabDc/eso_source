@@ -23,7 +23,7 @@
     "discoverChapter": "",
     "discoverDescription": "$.creator_username",
     "discoverResult": "$.room_id",
-    "enableSearch": true,
+    "enableSearch": false,
     "searchUrl": "https://fm.missevan.com/api/chatroom/search?q=$keyword&p=1&page_size=24",
     "searchItems": "",
     "searchList": "$.info.roomlist",
@@ -49,4 +49,4 @@
     "contentItems": "@js:[lastResult]",
     "loginUrl": "",
     "cookies": ""
-}
+  }

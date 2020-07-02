@@ -46,7 +46,8 @@
     "chapterTime": "",
     "chapterResult": "$.url",
     "contentUrl": "",
-    "contentItems": ".entry-content@text&&.comment-content-text>p@text",
+    "contentItems": ".entry-content>pre,.entry-content>p,.entry-content>figure,.comment-floor>time,.comment-content-text>p@innerHtml",
     "loginUrl": "",
-    "cookies": ""
+    "cookies": "",
+    "viewStyle": 0
 }

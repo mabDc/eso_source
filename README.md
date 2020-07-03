@@ -92,8 +92,67 @@
   + JSONPath 
     - 形式 `@JSon:$.jsonPath` 或 `@JSon:jsonPath` 或 `$.jsonPath`
     - 标准规范 [goessner JSONPath - XPath for JSON](https://goessner.net/articles/JsonPath/)
-    - 实现库 [dart-json-path](https://github.com/qhzhyt/dart-json-path.git)
     - 在线测试 [Jayway JsonPath Evaluator](http://jsonpath.herokuapp.com/)
+    - 实现库 [dart-json-path](https://github.com/qhzhyt/dart-json-path.git)
+    - 示例 [test](https://github.com/qhzhyt/dart-json-path/blob/master/test/test.dart)
+    ```dart
+    var jPathList = [
+      "\$.store.book[*].author",
+      "\$..book[*].author",
+      "\$..author",
+      "\$..store.book",
+      ".book[1]",
+      ".book[6]",
+      ".book[-1].author",
+      ".book[0, 1, 2].title",
+      ".book[0 , 1, 2].title",
+      ".book[-1:3].title",
+      ".book[-1:3:].price",
+      ".book[:3:].author",
+      ".book[3::-1].author",
+      ".book[::-1].author",
+      ".book[::].author",
+      ".book[-1::].title",
+      ".book[::].price",
+      ".book['price', 'title']",
+      ".book[*]['price', 'title']",
+      ".book[*]['price']",
+      ".book[(1 + 1 * 1)]['price']",
+      "\$..book[?(@.price <= \$['expensive'] && @.price >= 6)]",
+      "\$..book[?(!(@.price <= \$['expensive'] && @.price >= 6))]",
+      ".book[*][(@.attr)]",
+      "\$..book[?(@.author =~ /.*REES/)]",
+      "\$..book[?(@.author =~ /.*REES/i)]",
+      ".book[?(@.attr == 'price')]",
+      ".book[?(@.attr empty)]",
+      ".book[?(@.attr isNull)]",
+      "\$..book[*]",
+      "\$..book[*].title.substr(0,5)",
+      "\$..book[*].title.length(0,5)",
+      "\$..book.title.length()",
+      "\$..book[*].title.length().sum()",
+      "\$..book.price.sum()",
+      "\$..book[1:2]",
+      ".book[01,2,34,5]",
+      ".book[:-1]",
+      ".book[1:12]",
+      ".book[\$1:12]",
+      ".book[:]",
+      ".book[,]",
+      ".book['a','b',  'c'].value[0].link",
+      "\$..book[?(@.price <= \$['expensive'])]",
+      "\$..book[?(@.author =~ /.*REES/i)]",
+      ".book[*].length()",
+      "\$.store.book[*].author.substr(0,9)",
+      ".book[*].length().substr().aaaa...",
+      ".book[0].length()",
+      "\$..book[?(@.price <= \$['expensive'] && @.price >= 6)]",
+      ".book[?(((@.price >= 16 || @.price <= \$['expensive'] && @.price >= 6)))]",
+      ".book[((@.price || @.price <= \$['expensive']) && (@.price >= 6))]",
+      ".book[((@.price || @.price <= \$['expensive']) && (@.price >= 3 + 6))]",
+    ];
+    ```
+  
   + XPath
     - 形式 `@XPath:xpath` 或 `//xpath`
     - 标准规范 [W3C XPATH 1.0](https://www.w3.org/TR/1999/REC-xpath-19991116/) 

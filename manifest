@@ -2802,8 +2802,6 @@
     "loginUrl": "",
     "cookies": ""
   },
-{"id":"a2bddac5-1dbb-4dae-aed7-62ce2b3c84b7","createTime":1593706365556248,"modifiedTime":1593707219388958,"author":"阅读","postScript":"","name":"铁血读书","host":"http://book.tiexue.net","group":"","contentType":0,"sort":233,"useCryptoJS":false,"loadJs":"","userAgent":"","enableDiscover":false,"discoverUrl":"","discoverItems":"","discoverList":"","discoverTags":"","discoverName":"","discoverCover":"","discoverAuthor":"","discoverChapter":"","discoverDescription":"","discoverResult":"","enableSearch":true,"searchUrl":"@js:`http://book.tiexue.net/SearchResults.aspx?pageindex=searchPage&PageSize=20&keywords=${escape(keyword)}&noveltype=0`","searchItems":"","searchList":".tianZhi_list dl","searchTags":".keyWords a@text","searchName":"h6 a@text","searchCover":"http{{dt a img@src}}","searchAuthor":".zuoZhe1 a@text","searchChapter":"","searchDescription":"span@text","searchResult":"h6 a@href","enableMultiRoads":false,"chapterRoads":"","chapterRoadName":"","chapterUrl":"$resultlist.html","chapterItems":"","chapterList":".list01 li p a","chapterName":"text","chapterCover":"","chapterLock":"","chapterTime":"","chapterResult":"href","contentUrl":"","contentItems":".p_01 p@text","loginUrl":"","cookies":"","viewStyle":0}
-,
 {
     "id": "5b0f66e5-bd27-4153-818d-faae3752d672",
     "createTime": 1592478862673540,

@@ -2244,6 +2244,8 @@
   "loginUrl": "",
   "cookies": ""
 },
+{"id":"7826c443-132b-4584-8ecf-79faf4afc315","createTime":1593910341846208,"modifiedTime":1593945131671034,"author":"阅读","postScript":"","name":"最爱故事网","host":"https://www.92gushi.com","group":"","contentType":1,"sort":0,"useCryptoJS":false,"loadJs":"","userAgent":"","enableDiscover":true,"discoverUrl":"故事会::/?n=故事会&id=0&cover=https://s1.ax1x.com/2020/07/05/UpFAjH.jpg\n最推理::/?n=最推理&id=6&cover=https://s1.ax1x.com/2020/07/05/UpPlIf.jpg\n小小说月刊::/?n=小小说月刊&id=1&cover=\n上海故事::/?n=上海故事&id=2&cover=\n三月三::/?n=三月三&id=3&cover=\n故事林::/?n=故事林&id=4&cover=\n民间故事选刊::/?n=民间故事选刊&id=5&cover=","discoverItems":"","discoverList":"//*[id^=\"tagContent\"]//*[@class=\"booklist\"]@js:result[+baseUrl.match(/id=(\\d)/)[1]];@css:a","discoverTags":"","discoverName":"{{@js:decodeURI(baseUrl.match(/n=([^&]*)/)[1])}} {{text}}","discoverCover":"@js:baseUrl.match(/cover=([^&]*)/)[1]","discoverAuthor":"","discoverChapter":"","discoverDescription":"","discoverResult":"href","enableSearch":false,"searchUrl":"","searchItems":"","searchList":"","searchTags":"","searchName":"","searchCover":"","searchAuthor":"","searchChapter":"","searchDescription":"","searchResult":"","enableMultiRoads":false,"chapterRoads":"","chapterRoadName":"","chapterUrl":"$host/$result","chapterItems":"","chapterList":".maglistbox a","chapterName":"text","chapterCover":"","chapterLock":"","chapterTime":"","chapterResult":"href@js:baseUrl.replace(\"index.html\",\"\")+result","contentUrl":"","contentItems":"p@text","loginUrl":"","cookies":"","viewStyle":3}
+,
 {
     "id": "afda5a19-41a5-48d5-b28d-dc32483387ef",
     "createTime": 1593164938642637,

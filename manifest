@@ -2033,6 +2033,8 @@
     "cookies": "",
     "viewStyle": 0
 },
+{"id":"d68fd21d-2880-499c-a9e7-572425dc698a","createTime":1594267552737081,"modifiedTime":1594268961590558,"author":"一尾虾","postScript":"","name":"三千五中文网","host":"https://www.cn3k5.com","group":"","contentType":1,"sort":0,"useCryptoJS":false,"loadJs":"","userAgent":"","enableDiscover":true,"discoverUrl":"玄幻·奇幻::/fenlei/1_$page/\n武侠·仙侠::/fenlei/2_$page/\n都市·言情::/fenlei/3_$page/\n历史·军事::/fenlei/4_$page/\n游戏·竞技::/fenlei/5_$page/\n科幻·灵异::/fenlei/6_$page/\n其他·类型::/fenlei/7_$page/","discoverItems":"","discoverList":"//*[@id=\"sitebox\"]/dl","discoverTags":"//*[@class=\"book_other\"]/span/text()","discoverName":"//h3/a/text()","discoverCover":"img@src","discoverAuthor":"//dd[2]//a/text()","discoverChapter":"//dd[4]/a/text()","discoverDescription":"//*[@class=\"book_des\"]/text()","discoverResult":"//dd[4]/a/@href##\\d+.html","enableSearch":true,"searchUrl":"{\"url\":\"/modules/article/search.php?searchkey=searchKey&searchtype=articlename\",\"encoding\":\"gbk\"}","searchItems":"","searchList":"#nr","searchTags":"//td[position()>3]/text()","searchName":"//td[1]/text()","searchCover":"","searchAuthor":"//td[3]/text()","searchChapter":"//td[2]/text()","searchDescription":"//td[position()>3]/text()","searchResult":"//td[2]//a/@href##\\d+.html","enableMultiRoads":false,"chapterRoads":"","chapterRoadName":"","chapterUrl":"","chapterItems":"","chapterList":"//*[@id=\"readerlist\"]/ul/li[position()>1]/a","chapterName":"text","chapterCover":"","chapterLock":"","chapterTime":"","chapterResult":"href","contentUrl":"","contentItems":"#content@html","loginUrl":"","cookies":"","viewStyle":0}
+,
 {
     "id": "b8bbddc2-8e61-4148-adc8-09ec2ff696fe",
     "createTime": 1593451427665525,

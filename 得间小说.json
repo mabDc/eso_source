@@ -46,7 +46,7 @@
     "chapterTime": "",
     "chapterResult": "a@href",
     "contentUrl": "",
-    "contentItems": ".read_content > div > p,.read_content div[class^=zhangyue]@innerHtml",
+    "contentItems": ".read_content@html",
     "loginUrl": null,
     "cookies": ""
 }

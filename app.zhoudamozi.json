@@ -24,7 +24,7 @@
     "discoverDescription": "$.intro",
     "discoverResult": "/book/chapter/listAll?bookId={{$.id}}",
     "enableSearch": false,
-    "searchUrl": "@js:\n(() => {\n  var url = `http://app.zhoudamozi.com/es/search/book?q=${keyword}&pageNo=${searchPage}&pageSize=10`;\n  var method = \"get\"; // or \"post\"\n  var body = {};\n  var headers = {\"Seq\":\"54e6ca612c8b1f47e21331bde25aa346\"};\n  // var encoding = \"gbk\";\n  return {url, method, body, headers};\n})();",
+    "searchUrl": "@js:\n(() => {\n  var url = `http://app.zhoudamozi.com/es/search/book?q=${keyword}&pageNo=${page}&pageSize=10`;\n  var method = \"get\"; // or \"post\"\n  var body = {};\n  var headers = {\"Seq\":\"54e6ca612c8b1f47e21331bde25aa346\"};\n  // var encoding = \"gbk\";\n  return {url, method, body, headers};\n})();",
     "searchItems": "",
     "searchList": "$.data[*]",
     "searchTags": "$.clsName",

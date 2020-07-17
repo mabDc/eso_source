@@ -24,7 +24,7 @@
     "discoverDescription": "",
     "discoverResult": "@css:a@href",
     "enableSearch": true,
-    "searchUrl": "@js:`https://www.doudoudm.site/Home/Index/search_some?searchText=${searchKey}&page=${searchPage-1}`",
+    "searchUrl": "@js:`https://www.doudoudm.site/Home/Index/search_some?searchText=${searchKey}&page=${page-1}`",
     "searchItems": "",
     "searchList": "@css:#some_drama div",
     "searchTags": "",

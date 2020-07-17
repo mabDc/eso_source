@@ -849,7 +849,7 @@
     "discoverDescription": "",
     "discoverResult": "@css:a@href",
     "enableSearch": true,
-    "searchUrl": "@js:`https://www.doudoudm.site/Home/Index/search_some?searchText=${searchKey}&page=${searchPage-1}`",
+    "searchUrl": "@js:`https://www.doudoudm.site/Home/Index/search_some?searchText=${searchKey}&page=${page-1}`",
     "searchItems": "",
     "searchList": "@css:#some_drama div",
     "searchTags": "",
@@ -872,7 +872,8 @@
     "chapterResult": "href",
     "contentUrl": "@js:var nk = result.match(/\\/([\\d]*).html/)[1];\n`https://api.tzdjzu.com/index.php?nk=${nk}&barrage_switch=`",
     "contentItems": "source@src@js:\nre=result.join()\nif(re.startsWith(\"//\")){\nre=\"https:\"+re\n}\nre"
-},
+}
+,
 {
     "id": "708b76b3-831f-4702-bda0-c07f50822ad8",
     "createTime": 1591873097041093,

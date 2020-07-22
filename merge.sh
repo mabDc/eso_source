@@ -7,7 +7,7 @@ jsons=(*.json) # ${jsons[@]} now contains the list of files to concatenate
 echo '[' > manifest
 if [ ${#jsons[@]} -gt 0 ]; then # if the list is not empty
   cat "${jsons[0]}" >> manifest # concatenate the first file to the manifest...
-  unset jsons[0]                     # and remove it from the list
+  unset 'jsons[0]'                     # and remove it from the list
   for f in "${jsons[@]}"; do         # iterate over the rest
       echo "," >>manifest
       cat "$f" >>manifest

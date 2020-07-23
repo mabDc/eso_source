@@ -46,7 +46,7 @@
     "chapterTime": "",
     "chapterResult": "href",
     "contentUrl": "/$result",
-    "contentItems": ".layui-field-box@text",
+    "contentItems": ".layui-field-box@html",
     "loginUrl": "",
     "cookies": ""
 }

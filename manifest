@@ -2277,10 +2277,11 @@
     "chapterTime": "",
     "chapterResult": "href",
     "contentUrl": "/$result",
-    "contentItems": ".layui-field-box@text",
+    "contentItems": ".layui-field-box@html",
     "loginUrl": "",
     "cookies": ""
-},
+}
+,
 {
     "id": "67c58198-a0f4-4166-bddd-155aadf3dc99",
     "createTime": 1592571418350460,

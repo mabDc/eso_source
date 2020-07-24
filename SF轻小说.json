@@ -13,7 +13,7 @@
 	"loadJs": "",
 	"userAgent": "",
 	"enableDiscover": true,
-	"discoverUrl": "全部::http://book.sfacg.com/List/default.aspx?PageIndex=$page\n魔幻::http://book.sfacg.com/List/default.aspx?&tid=21&PageIndex=$page\n玄幻::http://book.sfacg.com/List/default.aspx?&tid=&PageIndex=22$page\n古风::http://book.sfacg.com/List/default.aspx?&tid=&PageIndex=23$page\n科幻::http://book.sfacg.com/List/default.aspx?&tid=&PageIndex=24$page\n校园::http://book.sfacg.com/List/default.aspx?&tid=&PageIndex=25$page\n都市::http://book.sfacg.com/List/default.aspx?&tid=&PageIndex=26$page\n游戏::http://book.sfacg.com/List/default.aspx?&tid=&PageIndex=27$page\n同人::http://book.sfacg.com/List/default.aspx?&tid=&PageIndex=28$page\n悬疑::http://book.sfacg.com/List/default.aspx?&tid=&PageIndex=29$page",
+	"discoverUrl": "全部::http://book.sfacg.com/List/default.aspx?PageIndex=$page\n魔幻::http://book.sfacg.com/List/default.aspx?&tid=21&PageIndex=$page\n玄幻::http://book.sfacg.com/List/default.aspx?&tid=22&PageIndex=$page\n古风::http://book.sfacg.com/List/default.aspx?&tid=23&PageIndex=$page\n科幻::http://book.sfacg.com/List/default.aspx?&tid=24&PageIndex=$page\n校园::http://book.sfacg.com/List/default.aspx?&tid=25&PageIndex=$page\n都市::http://book.sfacg.com/List/default.aspx?&tid=26&PageIndex=$page\n游戏::http://book.sfacg.com/List/default.aspx?&tid=27&PageIndex=$page\n同人::http://book.sfacg.com/List/default.aspx?&tid=28&PageIndex=$page\n悬疑::http://book.sfacg.com/List/default.aspx?&tid=29&PageIndex=$page",
 	"discoverItems": "",
 	"discoverList": ".Comic_Pic_List",
 	"discoverTags": "//li[2]/a[2]/text()",

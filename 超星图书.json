@@ -46,7 +46,7 @@
     "chapterTime": "",
     "chapterResult": "a@attr",
     "contentUrl": "",
-    "contentItems": "#contentBox>div>p@innerHtml",
+    "contentItems": "#contentBox>div>p@html",
     "loginUrl": "",
     "cookies": ""
   }

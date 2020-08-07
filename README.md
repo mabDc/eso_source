@@ -1,37 +1,5 @@
 # 请看[wiki](https://github.com/mabDc/eso_source/wiki/)
 
-# wiki目录
-
-[一 关于亦搜](亦搜)
-
-[二 规则导入](规则导入)
-
-[三 规则编写](规则编写)
-
-  0. [JSONPath与XPath语法参考](JSONPath与XPath语法参考) 已完成
-
-  1. [HTTP请求基础](HTTP请求基础) 已完成
-
-  2. [请求规则](请求规则) 已完成
-
-  3. [节点列表规则](节点列表规则) 50%
-
-  4. [节点内容规则](节点内容规则) 80%
-
-  5. [获取文字规则](获取文字规则) todo
-
-  6. [获取图片地址规则](获取图片地址规则) todo
-
-  7. [获取章节地址规则](获取目录链接规则) todo
-
-[三 规则实战](规则实战) 持续增加
-
-  1. [规则实战其一：知乎日报](规则实战其一：知乎日报) 已完成
-
-  2. [规则实战其二：17K小说网](规则实战其二：17K小说网) 已完成
-
-
-
 # 亦搜规则  
 
 ![update mainfest on push](https://github.com/mabDc/eso_source/workflows/update%20mainfest%20on%20push/badge.svg?branch=master)

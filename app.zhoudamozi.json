@@ -15,7 +15,7 @@
   "enableDiscover": true,
   "discoverUrl": "人气榜::/popular/new/detail?pageNo=$page&pageSize=10&subType=&type=1\n评分榜::日榜::/popular/new/detail?pageNo=$page&pageSize=10&subType=1&type=6\n评分榜::周榜::/popular/new/detail?pageNo=$page&pageSize=10&subType=2&type=6\n评分榜::月榜::/popular/new/detail?pageNo=$page&pageSize=10&subType=3&type=6\n男频榜::/popular/new/detail?pageNo=$page&pageSize=10&subType=&type=3\n女频榜::/popular/new/detail?pageNo=$page&pageSize=10&subType=&type=2\n完本榜::/popular/new/detail?pageNo=$page&pageSize=10&subType=&type=4\n收藏榜::日榜::http://api1.jiuhew.com/popular/new/detail?pageNo=1&pageSize=10&subType=1&type=5\n收藏榜::周榜::http://api1.jiuhew.com/popular/new/detail?pageNo=$page&pageSize=10&subType=2&type=5\n收藏榜::月榜::http://api1.jiuhew.com/popular/new/detail?pageNo=$page&pageSize=10&subType=3&type=5",
   "discoverItems": "",
-  "discoverList": "$.data.*",
+  "discoverList": "$.data[*]",
   "discoverTags": "$.clsName",
   "discoverName": "$.name",
   "discoverCover": "https://book.chengxinqinye.com/book{{$.photoPath}}",

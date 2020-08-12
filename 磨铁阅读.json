@@ -39,7 +39,7 @@
     "chapterRoadName": "",
     "chapterUrl": "",
     "chapterItems": "",
-    "chapterList": "$.data.data",
+    "chapterList": "$.data.data[*]",
     "chapterName": "$.name",
     "chapterCover": "",
     "chapterLock": "",

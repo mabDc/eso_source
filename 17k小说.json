@@ -26,7 +26,7 @@
     "enableSearch": true,
     "searchUrl": "http://api.17k.com/book/search/list?num=20&fuzzySearchType=1&page=searchPage&keyword=$keyword&cpsOpid=0&_filterData=1&device_id=32536325221b1ba1&channel=0&_versions=1110&merchant=17Kyyb&platform=2&manufacturer=&clientType=1&appKey=4037465544",
     "searchItems": "",
-    "searchList": "$..lists",
+    "searchList": "$..lists.*",
     "searchTags": "$.bookCategory.name",
     "searchName": "$.bookName",
     "searchCover": "$.coverImg",

@@ -46,7 +46,7 @@
     "chapterTime": "$.pass_time@js:new Date((\"\"+result).substring(0,14)*1000).toString()",
     "chapterResult": "@json:http://app.u17.com/v3/appV3_3/android/phone/comic/chapterNew?chapter_id={$.chapter_id}",
     "contentUrl": "",
-    "contentItems": "@JSon:$..images[0].img50",
+    "contentItems": "@JSon:$..img50",
     "loginUrl": "",
     "cookies": "",
     "viewStyle": 0

@@ -39,7 +39,7 @@
     "chapterRoadName": "",
     "chapterUrl": "",
     "chapterItems": "",
-    "chapterList": "@JSon:$.data.list",
+    "chapterList": "@JSon:$.data.list.*",
     "chapterName": "@JSon:$.chapterName",
     "chapterCover": "",
     "chapterLock": "",

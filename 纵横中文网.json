@@ -15,7 +15,7 @@
     "enableDiscover": true,
     "discoverUrl": "月票榜::https://m.zongheng.com/h5/ajax/rank?pageNum=searchPage&pageSize=10&rankType=1\n热门榜::男生::https://m.zongheng.com/h5/ajax/rank?pageNum=searchPage&pageSize=10&rankType=4\n热门榜::女生::https://m.zongheng.com/h5/ajax/rank?pageNum=searchPage&pageSize=10&rankType=19\n新书榜::https://m.zongheng.com/h5/ajax/rank?pageNum=searchPage&pageSize=10&rankType=14\n完结榜::https://m.zongheng.com/h5/ajax/rank?pageNum=searchPage&pageSize=10&rankType=-1",
     "discoverItems": "",
-    "discoverList": "$.ranklist.*",
+    "discoverList": "$.ranklist[*]",
     "discoverTags": "$.categoryName",
     "discoverName": "$.bookName",
     "discoverCover": "https://static.zongheng.com/upload/s_image{{$.coverUrl}}",

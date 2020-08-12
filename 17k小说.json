@@ -39,7 +39,7 @@
     "chapterRoadName": "",
     "chapterUrl": "http://api.17k.com/v2/book/$result/volumes?app_key=4037465544&price_extend=1&_versions=1070&client_type=2&_filter_data=1&channel=2&merchant=17Khwyysd&_access_version=2&cps=0",
     "chapterItems": "",
-    "chapterList": "$.data.volumes[*].chapters",
+    "chapterList": "$.data.volumes[*].chapters[*]",
     "chapterName": "$.chapter_name",
     "chapterCover": "",
     "chapterLock": "",

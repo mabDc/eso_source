@@ -26,7 +26,7 @@
   "enableSearch": true,
   "searchUrl": "https://www.missevan.com/sound/getsearch?s=$keyword&p=$page&type=3&page_size=30&sort=2",
   "searchItems": "",
-  "searchList": "$.info.Datas",
+  "searchList": "$.info.Datas.*",
   "searchTags": "",
   "searchName": "$.soundstr",
   "searchCover": "$.front_cover",

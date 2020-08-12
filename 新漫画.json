@@ -39,7 +39,7 @@
     "chapterRoadName": "",
     "chapterUrl": "",
     "chapterItems": "",
-    "chapterList": "$.included[?(@.type =~ /chapters/)]",
+    "chapterList": "$.included[?(@.type)]",
     "chapterName": "$..title",
     "chapterCover": "",
     "chapterLock": "",

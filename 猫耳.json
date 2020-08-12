@@ -39,7 +39,7 @@
     "chapterRoadName": "",
     "chapterUrl": "",
     "chapterItems": "",
-    "chapterList": "$.info.episodes.episode",
+    "chapterList": "$.info.episodes.episode.*",
     "chapterName": "$.name",
     "chapterCover": "",
     "chapterLock": "$.need_pay@js:result!=0",

@@ -26,7 +26,7 @@
     "enableSearch": true,
     "searchUrl": "https://www.qqasmr.com/api/search?keyword=$keyword",
     "searchItems": "",
-    "searchList": "$.data",
+    "searchList": "$.data.*",
     "searchTags": "",
     "searchName": "$.title",
     "searchCover": "$.thumb",

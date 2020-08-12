@@ -26,7 +26,7 @@
     "enableSearch": true,
     "searchUrl": "https://copymanga.com/api/kb/web/search/count?offset=0&platform=2&limit=12&q=$keyword",
     "searchItems": "",
-    "searchList": "$.results.comic.list",
+    "searchList": "$.results.comic.list.*",
     "searchTags": "$.theme[*].name",
     "searchName": "$.name",
     "searchCover": "$.cover",

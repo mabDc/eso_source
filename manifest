@@ -97,11 +97,12 @@
     "chapterTime": "",
     "chapterResult": "@js:\n`https://www.17k.com/ck/book/${lastResult}/chapter/${result.chapter_id}?subAllPrice=1&appKey=2406394919`",
     "contentUrl": "",
-    "contentItems": "$..content.text",
+    "contentItems": "$..content..text",
     "loginUrl": "https://passport.17k.com/login",
     "cookies": "",
     "viewStyle": 0
-},
+}
+,
 {
     "id": "64d36af5-bad7-4628-8e04-7d3a62bbeffd",
     "createTime": 1592834156528938,

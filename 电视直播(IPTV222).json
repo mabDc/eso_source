@@ -44,7 +44,7 @@
   "chapterCover": "",
   "chapterLock": "",
   "chapterTime": "",
-  "chapterResult": "value@js:result.split(\"\").reverse().join(\"\.")",
+  "chapterResult": "value@js:result.split(\"\").reverse().join(\"\")",
   "contentUrl": "http://iptv222.com/",
   "contentItems": "@js:[lastResult]",
   "loginUrl": "",

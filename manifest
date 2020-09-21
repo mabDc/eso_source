@@ -256,6 +256,8 @@
     "cookies": "",
     "viewStyle": 0
 },
+{"id":"7dc3d4fd-04ee-4948-b0f6-9ba0182014c0","createTime":1599703389939142,"modifiedTime":1599958749865651,"author":"","postScript":"","name":"6080影视","host":"https://www.px6080.net","group":"","contentType":2,"sort":0,"useCryptoJS":false,"loadJs":"","userAgent":"","enableDiscover":true,"discoverUrl":"/","discoverItems":"","discoverList":"//*[@class=\"movie-item\"]","discoverTags":"","discoverName":".movie-name@text","discoverCover":"img@data-original","discoverAuthor":"","discoverChapter":"","discoverDescription":"","discoverResult":".movie-name@href","enableSearch":true,"searchUrl":"{\n    \"url\": \"https://www.px6080.net/?c=search\",\n    \"method\": \"POST\",\n    \"body\": {\n        \"wd\": \"$keyword\"\n    }\n}","searchItems":"","searchList":"//*[@class=\"movie-item\"]","searchTags":"","searchName":".movie-name@text","searchCover":"img@data-original","searchAuthor":"","searchChapter":".hdtag@text","searchDescription":"","searchResult":".movie-name@href","enableMultiRoads":false,"chapterRoads":"","chapterRoadName":"","chapterUrl":"","chapterItems":"","chapterList":"//*[@class=\"dslist-group-item\"]","chapterName":"a@text","chapterCover":"","chapterLock":"","chapterTime":"","chapterResult":"a@href","contentUrl":"","contentItems":"iframe@src##http.*v=","loginUrl":"","cookies":"","viewStyle":0}
+,
 {
     "id": "1dfa8a1c-6937-43fa-84c0-80618d05b667",
     "createTime": 1596465222654778,

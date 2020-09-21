@@ -3689,6 +3689,8 @@
     "cookies": "",
     "viewStyle": 0
 },
+{"id":"db6d8777-865e-410f-92fe-8e9da75cec22","createTime":1600234791803091,"modifiedTime":1600252467496538,"author":"全自动成熟机","postScript":"","name":"企鹅电竞","host":"https://egame.qq.com","group":"","contentType":2,"sort":0,"useCryptoJS":false,"loadJs":"","userAgent":"","enableDiscover":true,"discoverUrl":"/livelist","discoverItems":"","discoverList":"@match:window.__NUXT__[^;]*@js:\neval(result);\n@json:$..liveList.*","discoverTags":"$..tag","discoverName":"$..title","discoverCover":"$..url","discoverAuthor":"$..anchorName","discoverChapter":"","discoverDescription":"$..appname","discoverResult":"/{{$..anchorId}}","enableSearch":true,"searchUrl":"https://egame.qq.com/search/live?kw=$keyword","searchItems":"","searchList":".livelist-mod>li","searchTags":"","searchName":"h4@text","searchCover":".content>img@src@js:\nif(result.startsWith(\"//\"))\nresult=\"https:\"+result\nresult","searchAuthor":".info-anchor@text","searchChapter":"","searchDescription":"","searchResult":"li>a@href","enableMultiRoads":false,"chapterRoads":"","chapterRoadName":"","chapterUrl":"","chapterItems":"","chapterList":"@match:playerInfo = ([^;]*)@@1@json:$..urlArray.*","chapterName":"$.desc","chapterCover":"","chapterLock":"","chapterTime":"","chapterResult":"$.playUrl","contentUrl":"/","contentItems":"@js:lastResult","loginUrl":"","cookies":"","viewStyle":4}
+,
 {
     "id": "ce15c517-c288-4967-aa39-67688053dedc",
     "createTime": 1596466237089752,

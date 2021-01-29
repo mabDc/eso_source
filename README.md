@@ -16,21 +16,21 @@
 
 `https://cdn.jsdelivr.net/gh/mabDc/eso_source/manifest`
 
-[所有图片源](https://raw.githubusercontent.com/Celeter/eso_source/master/图片/sub.json)合并后的规则链接：
+[所有图片源](https://raw.githubusercontent.com/mabDc/eso_source/master/图片/sub.json)合并后的规则链接：
 
-`https://raw.githubusercontent.com/Celeter/eso_source/master/图片/sub.json`
+`https://raw.githubusercontent.com/mabDc/eso_source/master/图片/sub.json`
 
-[所有文字源](https://raw.githubusercontent.com/Celeter/eso_source/master/文字/sub.json)合并后的规则链接：
+[所有文字源](https://raw.githubusercontent.com/mabDc/eso_source/master/文字/sub.json)合并后的规则链接：
 
-`https://raw.githubusercontent.com/Celeter/eso_source/master/文字/sub.json`
+`https://raw.githubusercontent.com/mabDc/eso_source/master/文字/sub.json`
 
-[所有视频源](https://raw.githubusercontent.com/Celeter/eso_source/master/视频/sub.json)合并后的规则链接：
+[所有视频源](https://raw.githubusercontent.com/mabDc/eso_source/master/视频/sub.json)合并后的规则链接：
 
-`https://raw.githubusercontent.com/Celeter/eso_source/master/视频/sub.json`
+`https://raw.githubusercontent.com/mabDc/eso_source/master/视频/sub.json`
 
-[所有音频源](https://raw.githubusercontent.com/Celeter/eso_source/master/音频/sub.json)合并后的规则链接：
+[所有音频源](https://raw.githubusercontent.com/mabDc/eso_source/master/音频/sub.json)合并后的规则链接：
 
-`https://raw.githubusercontent.com/Celeter/eso_source/master/音频/sub.json`
+`https://raw.githubusercontent.com/mabDc/eso_source/master/音频/sub.json`
 
 
 下面是规则编写说明。主要是三类：地址规则、取元素规则、取字符串规则。

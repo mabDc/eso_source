@@ -1,3 +1,4 @@
+# coding=utf-8
 import json, shutil, datetime, os
 
 source_type = [

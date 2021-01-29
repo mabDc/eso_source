@@ -12,14 +12,21 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
 
       - name: Run merge
-        run: python ${{ github.workspace }}/.github/script/merge.py
+        run: python ./.github/script/merge.py
 
       - name: Commit files
         run: |
           git config user.email github-actions@github.com
-          git config --local user.name "GitHub Action"
+          git config user.name  GitHub-Action
           git add .
           git commit -m "update mainfest" -a
           git push origin master

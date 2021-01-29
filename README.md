@@ -6,13 +6,32 @@
 
 用于APP内的网络导入，可以是单个规则，也可以是合并后的规则。欢迎成为协作者或者提交pr参与规则编写。
 
-[merge.sh](https://github.com/mabDc/eso_source/blob/master/merge.sh)是自动合并脚本，[mainfest](https://raw.githubusercontent.com/mabDc/eso_source/master/manifest) 是合并后的规则，链接：
+[merge.py](https://github.com/mabDc/eso_source/blob/master/.github/script/merge.py)是自动合并脚本，合并分类中的文件时会忽略其中的文件夹（含`失效`文件夹）、`*.md`文件和`sub.json`文件，修复失效源后，将其移除`失效`文件夹才会被合并
+
+[mainfest](https://raw.githubusercontent.com/mabDc/eso_source/master/manifest) 是所有源合并后的规则，链接：
 
 `https://raw.githubusercontent.com/mabDc/eso_source/master/manifest`
 
 网络问题可以使用[jsdelivr cdn](https://www.jsdelivr.com/?docs=gh)，即[mainfest from jsdelivr](https://cdn.jsdelivr.net/gh/mabDc/eso_source/manifest)，链接：
 
 `https://cdn.jsdelivr.net/gh/mabDc/eso_source/manifest`
+
+[所有图片源](https://raw.githubusercontent.com/Celeter/eso_source/master/图片/sub.json)合并后的规则链接：
+
+`https://raw.githubusercontent.com/Celeter/eso_source/master/图片/sub.json`
+
+[所有文字源](https://raw.githubusercontent.com/Celeter/eso_source/master/文字/sub.json)合并后的规则链接：
+
+`https://raw.githubusercontent.com/Celeter/eso_source/master/文字/sub.json`
+
+[所有视频源](https://raw.githubusercontent.com/Celeter/eso_source/master/视频/sub.json)合并后的规则链接：
+
+`https://raw.githubusercontent.com/Celeter/eso_source/master/视频/sub.json`
+
+[所有音频源](https://raw.githubusercontent.com/Celeter/eso_source/master/音频/sub.json)合并后的规则链接：
+
+`https://raw.githubusercontent.com/Celeter/eso_source/master/音频/sub.json`
+
 
 下面是规则编写说明。主要是三类：地址规则、取元素规则、取字符串规则。
 

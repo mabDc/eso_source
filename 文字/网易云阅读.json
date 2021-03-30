@@ -1,0 +1,105 @@
+{
+
+    "id": "23f13bff-247b-4143-84e3-e3a784510b74",
+
+    "createTime": 1601689735938378,
+
+    "modifiedTime": 1601708618386738,
+
+    "author": "Wenmoux",
+
+    "postScript": "",
+
+    "name": "网易云阅读",
+
+    "host": "http://m.yuedu.163.com",
+
+    "group": "小说·正版",
+
+    "contentType": 1,
+
+    "sort": 0,
+
+    "useCryptoJS": false,
+
+    "loadJs": "",
+
+    "userAgent": "",
+
+    "enableDiscover": true,
+
+    "discoverUrl": "@js:res=http.get(\"http://easyread.163.com/store/merged/rankNavi.json?uuid=&rankType=26\")\nJSON.parse(res).data.list.splice(0,3)\n.map(data => {\nname=data.name\nreturn data.subNavis.map(data => `${name}::${data.name}::@js:\"http://easyread.163.com${data.naviInfos[0].url}\"+(page-1)*20`).join(\"\\n\").replace(/all=0/g,\"all=\")\n}).join(\"\\n\")",
+
+    "discoverItems": "",
+
+    "discoverList": "$.list[*] ",
+
+    "discoverTags": "$.category",
+
+    "discoverName": "$.title",
+
+    "discoverCover": "$.cover",
+
+    "discoverAuthor": "$.author",
+
+    "discoverChapter": "",
+
+    "discoverDescription": "$.content ",
+
+    "discoverResult": "$.id",
+
+    "enableSearch": true,
+
+    "searchUrl": "http://m.yuedu.163.com/search/book/data.json?key=$keyword",
+
+    "searchItems": "",
+
+    "searchList": "$..books[*]",
+
+    "searchTags": "$.keyName&&$.paydesc&&$.category",
+
+    "searchName": "$.title",
+
+    "searchCover": "$.coverImage",
+
+    "searchAuthor": "$.author",
+
+    "searchChapter": "",
+
+    "searchDescription": "$.description",
+
+    "searchResult": "$.sourceUuid",
+
+    "enableMultiRoads": false,
+
+    "chapterRoads": "",
+
+    "chapterRoadName": "",
+
+    "chapterUrl": "http://m.yuedu.163.com/reader/book/info.json?catalog_only=true&source_uuid=$result",
+
+    "chapterItems": "",
+
+    "chapterList": "$..catalog[*]",
+
+    "chapterName": "$.title",
+
+    "chapterCover": "",
+
+    "chapterLock": "",
+
+    "chapterTime": "",
+
+    "chapterResult": "$.uuid@js:\"http://m.yuedu.163.com/reader/book/content.json?source_uuid=\"+lastResult+\"&content_uuid=\"+result",
+
+    "contentUrl": "",
+
+    "contentItems": "$..content@decode:base64@css:.m-content>p@innerHtml",
+
+    "loginUrl": "http://m.yuedu.163.com/login.do",
+
+    "cookies": "",
+
+    "viewStyle": 0
+
+}

@@ -1,8 +1,8 @@
-# 请看[wiki](https://github.com/mabDc/eso_source/wiki/)
-
 # 亦搜规则  
 
 ![update mainfest on push](https://github.com/mabDc/eso_source/workflows/update%20mainfest%20on%20push/badge.svg?branch=master)
+
+<font size=5 color="blue">亦搜为个人创作，社区驱动，从未有任何官网和公众号，更新渠道为github和频道和群。</font>
 
 用于APP内的网络导入，可以是单个规则，也可以是合并后的规则。欢迎成为协作者或者提交pr参与规则编写。
 
@@ -110,3 +110,6 @@
 4. 可以用`http.get(url)`来获取请求。
 
 5. 规则搜索部分共用一个js上下文，目录部分也共用一个js上下文。同一个上下文的规则的全局变量可以直接相互获取。（如用于目录列表设置id，章节结果获取所设置的id）
+
+
+## 更多内容请查阅 [wiki](https://github.com/mabDc/eso_source/wiki/)

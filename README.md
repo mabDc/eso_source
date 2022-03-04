@@ -2,7 +2,7 @@
 
 ![update mainfest on push](https://github.com/mabDc/eso_source/workflows/update%20mainfest%20on%20push/badge.svg?branch=master)
 
-<font size=5 color="blue">亦搜为个人创作，社区驱动，从未有任何官网和公众号，更新渠道为github和频道和群。</font>
+<p style="font-size:30px;color:blue;">亦搜为个人创作，社区驱动，从未有任何官网和公众号，更新渠道为github和频道和群。</p>
 
 用于APP内的网络导入，可以是单个规则，也可以是合并后的规则。欢迎成为协作者或者提交pr参与规则编写。
 

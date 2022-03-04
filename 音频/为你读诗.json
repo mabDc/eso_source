@@ -40,7 +40,7 @@
     "chapterUrl": "{\n    \"url\": \"https://www.thepoemforyou.com/thepeamforyou/public/programdetial\",\n    \"method\": \"POST\",\n    \"body\": \"id=$result\",\n    \"headers\": {\n        \"Content-Type\": \"application/x-www-form-urlencoded\"\n    }\n}",
     "chapterItems": "",
     "chapterList": "@json:$..msg",
-    "chapterName": "@json:$..str_peam_title ",
+    "chapterName": "@json:$..str_peam_title",
     "chapterCover": "",
     "chapterLock": "",
     "chapterTime": "",

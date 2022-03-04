@@ -46,7 +46,7 @@
     "chapterTime": "",
     "chapterResult": "href",
     "contentUrl": "",
-    "contentItems": "@js:\neval(result.match(/player_data[^\\<]*/)[0])\nplayer_data.url",
+    "contentItems": "@web:player_aaaa.url",
     "loginUrl": "",
     "cookies": "",
     "viewStyle": 0

@@ -106,9 +106,14 @@ def merge(import_dir: str):
             if file.endswith('.md') or file == 'sub.json':
                 pass
             else:
-                content = json.loads(read_file(os.path.join(type_dir, file)))
-                src_list.append(content)
-                source_list.append(content)
+                fileContent = read_file(os.path.join(type_dir, file)).strip()
+                if fileContent.startswith("eso"):
+                    src_list.append(fileContent)
+                    source_list.append(fileContent)
+                else:
+                    contentJSON = json.loads(fileContent)
+                    src_list.append(contentJSON)
+                    source_list.append(contentJSON)
         log('{}源:{}个'.format(src.get('Type'), len(src_list)))
         write_file(os.path.join(type_dir, 'sub.json'), src_list)
         log('子分类文件{}写入完毕'.format(os.path.join(type_dir, 'sub.json')))
@@ -119,7 +124,8 @@ def merge(import_dir: str):
 
 if __name__ == '__main__':
     # 工作路径
-    import_path = os.environ.get('GITHUB_WORKSPACE')
+    # import_path = os.environ.get('GITHUB_WORKSPACE')
+    import_path = "."
     if import_path is None:
         log('工作路径为空，请更改路径后再执行')
     else:

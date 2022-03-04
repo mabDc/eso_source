@@ -2,9 +2,11 @@
 
 ![update mainfest on push](https://github.com/mabDc/eso_source/workflows/update%20mainfest%20on%20push/badge.svg?branch=master)
 
-<p style="font-size:30px;color:blue;">亦搜为个人创作，社区驱动，从未有任何官网和公众号，更新渠道为github和频道和群。</p>
+## 亦搜为个人创作，社区驱动，从未有任何官网和公众号，更新渠道为github和频道和群。
 
-用于APP内的网络导入，可以是单个规则，也可以是合并后的规则。欢迎成为协作者或者提交pr参与规则编写。
+该仓库用于存放规则文件、合并脚本、规则编写说明与[wiki](https://github.com/mabDc/eso_source/wiki/)，可以网络导入，可以是单个规则，也可以是合并后的规则。规则长期更新，欢迎成为协作者或者提交pr参与规则编写。
+
+### 一般请无视其他直接添加该地址 https://cdn.jsdelivr.net/gh/mabDc/eso_source/manifest 
 
 [merge.py](https://github.com/mabDc/eso_source/blob/master/.github/script/merge.py)是自动合并脚本，合并分类中的文件时会忽略其中的文件夹（含`失效`文件夹）、`*.md`文件和`sub.json`文件，修复失效源后，将其移除`失效`文件夹才会被合并
 

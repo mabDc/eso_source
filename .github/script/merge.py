@@ -108,8 +108,8 @@ def merge(import_dir: str):
             else:
                 fileContent = read_file(os.path.join(type_dir, file)).strip()
                 if fileContent.startswith("eso"):
-                    src_list.append(fileContent)
-                    source_list.append(fileContent)
+                    src_list.append(fileContent.strip())
+                    source_list.append(fileContent.strip())
                 else:
                     contentJSON = json.loads(fileContent)
                     src_list.append(contentJSON)
